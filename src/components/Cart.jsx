@@ -14,7 +14,9 @@ const Cart = () => {
 
     const handleDecrease = (productId) => {
         console.log("...decrease");
+        
         dispatch(decreaseQuantity(productId));
+        
     };
 
     const handleRemove = (productId) => {
