@@ -1,3 +1,0 @@
-const subTotalReducer = (state=[],action) => {
-    
-}
